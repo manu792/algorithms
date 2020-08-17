@@ -1,0 +1,13 @@
+C:\Users\manu_\Documents\Projects\AwsTest\AwsTest\bin\Debug\netcoreapp3.1\AwsTest.exe
+C:\Users\manu_\Documents\Projects\AwsTest\AwsTest\bin\Debug\netcoreapp3.1\AwsTest.deps.json
+C:\Users\manu_\Documents\Projects\AwsTest\AwsTest\bin\Debug\netcoreapp3.1\AwsTest.runtimeconfig.json
+C:\Users\manu_\Documents\Projects\AwsTest\AwsTest\bin\Debug\netcoreapp3.1\AwsTest.runtimeconfig.dev.json
+C:\Users\manu_\Documents\Projects\AwsTest\AwsTest\bin\Debug\netcoreapp3.1\AwsTest.dll
+C:\Users\manu_\Documents\Projects\AwsTest\AwsTest\bin\Debug\netcoreapp3.1\AwsTest.pdb
+C:\Users\manu_\Documents\Projects\AwsTest\AwsTest\obj\Debug\netcoreapp3.1\AwsTest.AssemblyInfoInputs.cache
+C:\Users\manu_\Documents\Projects\AwsTest\AwsTest\obj\Debug\netcoreapp3.1\AwsTest.AssemblyInfo.cs
+C:\Users\manu_\Documents\Projects\AwsTest\AwsTest\obj\Debug\netcoreapp3.1\AwsTest.csproj.CoreCompileInputs.cache
+C:\Users\manu_\Documents\Projects\AwsTest\AwsTest\obj\Debug\netcoreapp3.1\AwsTest.dll
+C:\Users\manu_\Documents\Projects\AwsTest\AwsTest\obj\Debug\netcoreapp3.1\AwsTest.pdb
+C:\Users\manu_\Documents\Projects\AwsTest\AwsTest\obj\Debug\netcoreapp3.1\AwsTest.genruntimeconfig.cache
+C:\Users\manu_\Documents\Projects\AwsTest\AwsTest\obj\Debug\netcoreapp3.1\AwsTest.csprojAssemblyReference.cache
