@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Text.RegularExpressions;
 
 namespace AwsTest
 {
@@ -29,6 +31,47 @@ namespace AwsTest
             minimumBribes(new int[] { 1, 2, 5, 3, 7, 8, 6, 4 });
 
             var result = twoStrings("helloo", "world");
+
+            abbreviation("ABCdE", "ABCCDE");
+        }
+
+        static string abbreviation(string a, string b)
+        {
+            var arrayA = a.ToArray();
+            var arrayB = b.ToArray();
+
+            Array.Sort(arrayA);
+            Array.Sort(arrayB);
+
+            StringBuilder sb = new StringBuilder(arrayA.ToString());
+
+
+            if (!IsBInA(a, b))
+                return "NO";
+
+            foreach(var character in arrayB)
+            {
+                var firstOccurrence = sb.ToString().IndexOf(character.ToString().ToLower());
+
+                if(firstOccurrence > -1) 
+                {
+                    sb.Replace(character.ToString().ToLower(), character.ToString(), firstOccurrence, character.ToString().ToLower().Length);
+                }
+            }
+
+            var result = (sb.ToString().Where(x => char.IsUpper(x))).ToString();
+
+            return result;
+        }
+
+        private static bool IsBInA(string a, string b)
+        {
+            foreach(var character in b)
+            {
+                if (!a.Contains(character))
+                    return false;
+            }
+            return true;
         }
 
         static string twoStrings(string s1, string s2)
